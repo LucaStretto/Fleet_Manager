@@ -1,0 +1,41 @@
+{
+  "app_title": "Fleet Management System",
+  
+  "menu_vehicles": "Vehicles",
+  "menu_drivers": "Drivers",
+  "menu_maintenance": "Maintenance",
+  "menu_reports": "Reports",
+  "menu_settings": "Settings",
+  
+  "add_vehicle": "Add Vehicle",
+  "edit": "Edit",
+  "delete": "Delete",
+  "save": "Save",
+  "cancel": "Cancel",
+  "close": "Close",
+  "search": "Search...",
+  
+  "license_plate": "License Plate",
+  "brand": "Brand",
+  "model": "Model",
+  "year": "Year",
+  "vin": "VIN",
+  "color": "Color",
+  "fuel_type": "Fuel Type",
+  "engine": "Engine",
+  "transmission": "Transmission",
+  "mileage": "Mileage",
+  "status": "Status",
+  
+  "insurance_expiry": "Insurance Expires",
+  "kteo_next": "Next Inspection",
+  "kek_renewal": "KEK Renewal",
+  
+  "active": "Active",
+  "inactive": "Inactive",
+  
+  "language": "Language",
+  "theme": "Theme",
+  "light_theme": "Light",
+  "dark_theme": "Dark"
+}

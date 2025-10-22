@@ -1,0 +1,143 @@
+{
+  "app": {
+    "title": "Διαχείριση Στόλου Οχημάτων"
+  },
+  
+  "menu": {
+    "vehicles": "Οχήματα",
+    "drivers": "Οδηγοί", 
+    "maintenance": "Συντήρηση",
+    "reports": "Αναφορές",
+    "settings": "Ρυθμίσεις"
+  },
+  
+  "actions": {
+    "add_vehicle": "Προσθήκη Οχήματος",
+    "edit": "Επεξεργασία",
+    "delete": "Διαγραφή",
+    "save": "Αποθήκευση",
+    "cancel": "Ακύρωση",
+    "close": "Κλείσιμο",
+    "search": "Αναζήτηση...",
+    "upload": "Επισύναψη",
+    "remove": "Αφαίρεση"
+  },
+  
+  "vehicle": {
+    "information": "Πληροφορίες Οχήματος",
+    "license_plate": "Αρ. Κυκλοφορίας",
+    "brand": "Κατασκευαστής",
+    "model": "Μοντέλο", 
+    "year": "Έτος Κυκλοφορίας",
+    "vin": "VIN",
+    "color": "Χρώμα",
+    "fuel_type": "Τύπος Καυσίμου",
+    "engine": "Κινητήρας",
+    "engine_cc": "Κυβικά",
+    "transmission": "Κιβώτιο",
+    "mileage": "Χιλιόμετρα",
+    "status": "Κατάσταση",
+    "notes": "Σημειώσεις",
+    "has_gps": "Διαθέτει GPS Tracker",
+    
+    "types": {
+      "passenger": "Επιβατικό",
+      "truck": "Φορτηγάκι", 
+      "motorcycle": "Μοτοσικλέτα",
+      "van": "Van",
+      "other": "Άλλο"
+    },
+    
+    "status": {
+      "active": "Ενεργό",
+      "inactive": "Ανενεργό"
+    }
+  },
+  
+  "documents": {
+    "licence": "Άδεια Κυκλοφορίας",
+    "insurance": "Ασφαλιστήριο", 
+    "kteo": "ΚΤΕΟ",
+    "kek": "Κάρτα Ελέγχου Καυσαερίων (ΚΕΚ)",
+    
+    "dates": {
+      "from": "Από",
+      "to": "Έως", 
+      "next": "Επόμενο",
+      "expiry": "Λήξη"
+    },
+    
+    "insurance_expiry": "Ασφαλισμένο έως",
+    "kteo_next": "Επόμενος ΚΤΕΟ", 
+    "kek_renewal": "Ανανέωση ΚΕΚ"
+  },
+  
+  "add_vehicle_dialog": {
+    "title": "Νέο Όχημα",
+    
+    "sections": {
+      "vehicle_info": "Πληροφορίες Οχήματος",
+      "insurance_info": "Πληροφορίες Ασφαλιστηρίου", 
+      "kteo_info": "Πληροφορίες ΚΤΕΟ",
+      "kek_info": "Κάρτα Ελέγχου Καυσαερίων (ΚΕΚ)",
+      "notes": "Σημειώσεις"
+    },
+    
+    "placeholders": {
+      "brand": "Επιλέξτε ή γράψτε μάρκα",
+      "model": "π.χ. Corolla",
+      "license_plate": "π.χ. XEP-4096", 
+      "vin": "17 χαρακτήρες",
+      "notes": "Προαιρετικές σημειώσεις για το όχημα...",
+      "no_file": "Δεν έχει επισυναφθεί αρχείο"
+    },
+    
+    "tooltips": {
+      "attach_file": "Επισύναψη αρχείου",
+      "remove_file": "Αφαίρεση αρχείου"
+    }
+  },
+  
+  "fuel_types": {
+    "petrol": "Βενζίνη",
+    "diesel": "Diesel", 
+    "hybrid": "Υβριδικό",
+    "electric": "Ηλεκτρικό",
+    "lpg": "LPG",
+    "cng": "CNG"
+  },
+  
+  "colors": {
+    "white": "Άσπρο",
+    "black": "Μαύρο",
+    "grey": "Γκρι", 
+    "red": "Κόκκινο",
+    "blue": "Μπλε",
+    "silver": "Ασημί",
+    "green": "Πράσινο",
+    "yellow": "Κίτρινο",
+    "brown": "Καφέ",
+    "other": "Άλλο"
+  },
+  
+  "settings": {
+    "language": "Γλώσσα",
+    "theme": "Θέμα", 
+    "light_theme": "Ανοιχτό",
+    "dark_theme": "Σκούρο"
+  },
+  
+  "messages": {
+    "success": {
+      "vehicle_created": "Το όχημα προστέθηκε επιτυχώς!"
+    },
+    "errors": {
+      "required_field": "Παρακαλώ συμπληρώστε το πεδίο",
+      "vin_length": "Το VIN πρέπει να είναι 17 χαρακτήρες",
+      "invalid_year": "Το έτος δεν μπορεί να είναι μελλοντικό"
+    },
+    "warnings": {
+      "no_license_plate": "Εισάγετε πρώτα τον αριθμό κυκλοφορίας!"
+    }
+  }
+}
